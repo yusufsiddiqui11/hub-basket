@@ -27,7 +27,7 @@ public class SwaggerConfig {
 				.useDefaultResponseMessages(false)
 				.securityContexts(Arrays.asList(securityContext()))
 				.securitySchemes(Arrays.asList(apiKey())).select()
-                .apis(RequestHandlerSelectors.basePackage("com.authenticationservice.conrollers"))
+                .apis(RequestHandlerSelectors.basePackage("com.mays.authenticationservice.conrollers"))
                 .paths(PathSelectors.regex("/api/.*"))
                 .build()
                 .apiInfo(apiInfo());
