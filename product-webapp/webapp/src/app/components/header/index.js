@@ -13,6 +13,10 @@ class Navigation extends Component {
       navBarHeight: 80, // Initial height of the navbar
     };
   }
+  handleToggleClick = (event) => {
+    event.preventDefault();
+    // Add your toggle click logic here
+  };
 
   handleChange(e) {
     this.setState({ [e.target.name]: e.target.value });
@@ -77,6 +81,9 @@ class Navigation extends Component {
       opacity: 'backgroundOpacity(${70}%)',
       filter: `brightness(${100}%)`,*/
     };
+    const toggleStyle = {
+      color: "#ff1493", // Replace "radishpink" with the actual color value
+    };
 
     return (
       <div className="osahan-home-page">
@@ -98,11 +105,15 @@ class Navigation extends Component {
                 href="/"
                 className="text-decoration-none bg-white p-1 rounded shadow-sm d-flex align-items-center"
               >
-                <i className="text-dark icofont-notification" />
-                <span className="badge badge-danger p-1 ml-1 small">2</span>
+                
               </a>
             </p>
-            <a className="toggle ml-3" href="#">
+            <a
+              className="toggle ml-3"
+              href="#"
+              onClick={this.handleToggleClick}
+              style={toggleStyle}
+            >
               <i className="icofont-navigation-menu" />
             </a>
           </div>

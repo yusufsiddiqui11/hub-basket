@@ -122,10 +122,11 @@ export default class Register extends Component {
                     <input type="password" className="form-control" placeholder="********" />
                 </fieldset> */}
         <fieldset className="form-group">
-          <button
+          <button 
             type="submit"
             className="btn btn-lg btn-secondary btn-block"
             onClick={this.handleSubmit}
+            style={{ backgroundColor: 'green', color: 'white', fontWeight: 'bold' }}
           >
             Create Your Account
           </button>

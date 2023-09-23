@@ -42,7 +42,7 @@ export default function Footer() {
           My Order
         </a>
         <a
-          onClick={() => handleClick("/")}
+          onClick={() => handleClick("/SellHere")}
           href="/"
           className="text-muted small col text-decoration-none p-2"
         >

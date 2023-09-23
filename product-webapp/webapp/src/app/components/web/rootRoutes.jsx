@@ -9,6 +9,16 @@ import Payment from "./views/home/payment";
 import Checkout from "./views/home/checkout";
 import Successfully from "./views/home/successfully";
 import Orderstatus from "./views/home/orderstatus";
+import Shop from "./views/home/Shop";
+import NewCategory from "./views/home/NewCategory";
+import Register from "../../auth/register";
+import Login from "../../auth/login";
+import RegLog from "./RegLog";
+import Cards from "./views/home/Nonveg";
+import Nav from "../header/Nav";
+import NewCart from "./views/home/NewCart";
+import Features from "./views/home/Comp/Features";
+import ImageBackgroundComponent from "./Reg/Firstpage";
 export default class rootRoutes extends Component {
   render() {
     return (
@@ -23,6 +33,17 @@ export default class rootRoutes extends Component {
           <Route exact path="/checkout" component={Checkout} />
           <Route exact path="/successfully" component={Successfully} />
           <Route exact path="/order-status" component={Orderstatus} />
+          <Route exact path="/Shop" component={Shop} />
+          <Route exact path="/NewCategory" component={NewCategory} />
+          <Route exact path="/Register" component={Register} />
+          <Route exact path="/login" component={Login} />
+          <Route exact path="/RegLog" component={RegLog} />
+          <Route exact path="/Card" component={Cards} />
+          <Route exact path="/Nav" component={Nav} />
+          <Route exact path="/NewCart" component={NewCart} />
+          <Route exact path="/Feature" component={Features} />
+          <Route exact path="/Back" component={ImageBackgroundComponent} />
+
         </Switch>
       </div>
     );

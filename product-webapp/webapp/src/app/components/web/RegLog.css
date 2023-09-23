@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+}
+
+.poster{
+    display: grid;
+    gap: 20px;
+}
+.Container h2{
+   
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    background-color: white;
+}
+.header{
+    display: flex;
+    width: 100vw;
+    height: 15vw;
+    background-color: white;
+    gap: 25px;
+}
+.logo{
+    width: 10vw;
+    height: 7vh;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: white;
+    margin-left: 15px;
+    background-color: whitesmoke;
+}
+ .header .Hub {
+    background-color: white;
+    font-weight: 800;
+    color: rgb(10, 10, 10);
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+   .header .Basket {
+    background-color: white;
+    font-weight: 800;
+    color: rgb(250, 3, 147);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+
+  }
+  .navtitle{
+    background-color: white;
+  }
+
+  .customer{
+    width: 80vw;
+    height: auto;
+    background-image: url('https://picsum.photos/200/300');
+  }
+.customer h3, .seller h3{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0px;
+}
+
+.Button1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80vw;
+}
+.custreg, .sellerreg{
+    margin-left: 55vw;
+}
+.custlogin, .custreg, .sellerlogin, .sellerreg{
+    background-color: green;
+    color: white;
+    height: 5vh;
+    width: 10vh;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 5vw;
+}
+.custlogin:hover, .custreg:hover, .sellerlogin:hover, .sellerreg:hover{
+    transform: scale(1.05);
+    background-color: blue;
+}

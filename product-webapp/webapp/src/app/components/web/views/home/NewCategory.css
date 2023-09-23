@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box;
+      max-width: 100%;
+      overflow-x: hidden;
+   */
+}
+.item{
+    display: grid;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two cards in grid view with equal width */
+    gap: 10px; /* Gap between cards */
+  }
+  .card2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Two cards in grid view with equal width */
+  }
+  .container2{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    height: 100%; /* Make the container take up full height */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .container2 img{
+    width: 100%;
+    max-height: 100%; /* Adjust to maintain aspect ratio */
+    border-radius: 8px;
+  }
+  .header{
+    display: grid;
+    background-color: white;
+
+  }
+  .asif {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    height: 100%; /* Make the container take up full height */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .asif img {
+    width: 100%;
+    max-height: 100%; /* Adjust to maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+  
+  .asif h3 {
+    margin: 10px 0; /* Add space between h3 and container */
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+  }
+  

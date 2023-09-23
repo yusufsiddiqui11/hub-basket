@@ -1,0 +1,121 @@
+*{
+  margin: 0px;
+}
+.fixed-bottom-padding {
+  padding-bottom: 0 !important;
+}
+.card-container{
+  display: grid;
+    grid-template-columns: 1fr 1fr; /* Two cards in grid view with equal width */
+    gap: 10px; /* Gap between cards */
+}
+
+.grid-container {
+  width: 50vw;
+  gap: 10px;
+}
+
+.product-card {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 0px;
+  text-align: center;
+  background-color: white;
+}
+
+.product-card .image {
+  width: 100%;
+  border: none;
+  padding: none;
+  transition: transform 0.2s ease-in-out;
+}
+.image:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  border-radius: 5px;
+}
+
+.product_content {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.price-and-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.price-and-button h6{
+  color: green;
+  font-weight: bold;
+  background-color: white;
+  font-size: 25px;
+}
+
+.addbutton{
+  border-radius: 5px;
+  width: 120px;
+  height: 5vh;
+  font-size: 12px;
+  
+}
+
+.addbutton,
+.decb,
+.incb,
+.quant {
+  padding: 8px 15px;
+  font-size: 15px;
+  transition: transform 0.2s ease-in-out;
+}
+.decb,
+.incb,
+.quant {
+  float: left;
+}
+.addbutton,
+.quant{
+  background-image:linear-gradient(111.4deg, rgb(2, 255, 4) 18.4%, rgb(0, 232, 237) 100.2%);
+  color: white;
+  font-weight: bold;
+}
+
+.decb,
+.incb{
+  border-radius: 5px;
+  font-weight: bold;
+  color: green;
+  background-color: white;
+}
+
+.addbutton:hover,
+.decb:hover,
+.incb:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

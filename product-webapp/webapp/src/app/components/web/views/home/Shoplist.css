@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    background-color: rgb(240, 239, 239);
+    font-family: sans-serif;
+}
+.container{
+    background-color: white;
+    height: 220px;
+    width: auto;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.product_content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-container {
+    display: grid; /* Display as grid container */
+    grid-template-columns: 1fr 2fr; /* Create two columns */
+    gap: 1px; /* Adjust the gap between the image and product_content */
+    align-items: center; 
+    background-color: white;
+  }
+.product_content  {
+    background-color: white;
+}
+.product_content h4 {
+    font-weight: bold;
+    color: rgb(55, 54, 54);
+    background-color: white;
+}
+ .build {
+    background-color: white;
+}
+.location {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+}
+.product_content p {
+    color: rgb(104, 104, 104);
+    font-weight: bold;
+    background-color: white;
+}
+.button{
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.call{
+    background-color: rgb(5, 218, 19);
+    color: aliceblue;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold; /* Make the text bold */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-right: 40px;
+    border-radius:  0 15px 15px 0;
+
+}
+.callicon{
+    background-color: rgb(5, 218, 19);
+    color: white;
+}
+.view{
+    background-color: white;
+    color: rgb(5, 218, 19);
+    border-color: rgb(5, 218, 19);
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold; /* Make the text bold */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+    border-radius:  15px 0 0 15px;
+
+}
+.viewicon{
+    background-color: white;
+}
+.image1{
+    height: 120px;
+    width: 120px;
+}

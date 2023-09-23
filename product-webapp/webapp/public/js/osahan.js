@@ -62,6 +62,8 @@ ga('send', 'pageview');
 
 // Tooltip
 $('[data-toggle="tooltip"]').tooltip();
+<input className="theme-switch" type="checkbox" />
+
 
 // Osahan Slider
 $('.osahan-slider').slick({

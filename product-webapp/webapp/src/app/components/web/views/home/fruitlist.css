@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 170px;
+    width: 120px;
+    background-color: brown;
+    border-radius: 10px;
+}
+.imgsrc{
+    height: 150px;
+    width: 100px;
+    display: grid;
+}
+.button{
+    display: flex;
+    justify-content: space-around 50px;
+    color: blue;
+}

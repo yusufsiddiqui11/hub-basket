@@ -42,7 +42,7 @@ export default class Offercard extends Component {
                 <div className="list-card-image">
                   <a href="/product-detail" className="text-dark">
                     <div className="member-plan position-absolute">
-                      <span className="badge m-3 badge-danger">5%</span>
+                      
                     </div>
                   </a>
                   <div className="p-3">
@@ -75,7 +75,7 @@ export default class Offercard extends Component {
                 <div className="list-card-image">
                   <a href="/product-detail" className="text-dark">
                     <div className="member-plan position-absolute">
-                      <span className="badge m-3 badge-warning">5%</span>
+                      
                     </div>
                   </a>
                   <div className="p-3">
@@ -127,7 +127,7 @@ export default class Offercard extends Component {
                 <div className="list-card-image">
                   <a href="/product-detail" className="text-dark">
                     <div className="member-plan position-absolute">
-                      <span className="badge m-3 badge-warning">15%</span>
+                      
                     </div>
                   </a>
                   <div className="p-3">
@@ -160,7 +160,7 @@ export default class Offercard extends Component {
                 <div className="list-card-image">
                   <a href="/product-detail" className="text-dark">
                     <div className="member-plan position-absolute">
-                      <span className="badge m-3 badge-success">10%</span>
+                      
                     </div>
                   </a>
                   <div className="p-3">
@@ -173,7 +173,7 @@ export default class Offercard extends Component {
                     </a>
                     <div className="d-flex align-items-center">
                       <a href="/product-detail" className="text-dark">
-                        <h6 className="price m-0 text-success">₹38/kg</h6>
+                      
                       </a>
                       <a
                         href="/cart"
@@ -191,7 +191,7 @@ export default class Offercard extends Component {
                 <div className="list-card-image">
                   <a href="/product-detail" className="text-dark">
                     <div className="member-plan position-absolute">
-                      <span className="badge m-3 badge-success">10%</span>
+                      
                     </div>
                   </a>
                   <div className="p-3">

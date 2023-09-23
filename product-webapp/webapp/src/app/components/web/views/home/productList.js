@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 
 export default class ProductList extends Component {
   constructor(props) {
@@ -30,40 +29,7 @@ export default class ProductList extends Component {
       <div>
         <div className="osahan-listing">
           <div className="p-3">
-            <div style={{ width: "100%", height: "200px", background: "none" }}>
-              <h6 className="mb-2">Our Others Features</h6>
-              <Carousel
-                showArrows={true}
-                showIndicators={false}
-                showStatus={false}
-                infiniteLoop={true}
-                autoPlay={true}
-                interval={3000}
-              >
-
-            <div>
-              <img
-                src="img/categorie/banner1.jpg"
-                alt="Poster 1"
-                style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "cover", borderRadius: "10px" }}
-              />
-            </div>
-            <div>
-              <img
-                src="img/categorie/banner2.jpg"
-                alt="Poster 2"
-                style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "cover", borderRadius: "10px" }}
-              />
-            </div>
-            <div>
-              <img
-                src="img/categorie/banner3.jpg"
-                alt="Poster 3"
-                style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "cover", borderRadius: "10px" }}
-              />
-            </div>
-          </Carousel>
-        </div>
+            
             <div className="d-flex align-items-center"style={{ marginTop: "120px" }}>
               <a
                 className="font-weight-bold text-success text-decoration-none"
@@ -83,7 +49,7 @@ export default class ProductList extends Component {
                 <div className="list-card-image">
                   <a href="/product-detail" className="text-dark">
                     <div className="member-plan position-absolute">
-                      <span className="badge m-3 badge-danger">10%</span>
+                    
                     </div>
                   </a>
                   <div className="p-3">
@@ -112,7 +78,7 @@ export default class ProductList extends Component {
                 <div className="list-card-image">
                   <a href="/product-detail" className="text-dark">
                     <div className="member-plan position-absolute">
-                      <span className="badge m-3 badge-danger">5%</span>
+                    
                     </div>
                   </a>
                   <div className="p-3">
@@ -231,7 +197,7 @@ export default class ProductList extends Component {
                 <div className="list-card-image">
                   <a href="/product-detail" className="text-dark">
                     <div className="member-plan position-absolute">
-                      <span className="badge m-3 badge-success">10%</span>
+                      
                     </div>
                   </a>
                   <div className="p-3">
@@ -281,7 +247,7 @@ export default class ProductList extends Component {
                 <div className="list-card-image">
                   <a href="/product-detail" className="text-dark">
                     <div className="member-plan position-absolute">
-                      <span className="badge m-3 badge-success">10%</span>
+                      {/*<span className="badge m-3 badge-success">10%</span>*/}
                     </div>
                   </a>
                   <div className="p-3">
@@ -312,7 +278,7 @@ export default class ProductList extends Component {
                 <div className="list-card-image">
                   <a href="/product-detail" className="text-dark">
                     <div className="member-plan position-absolute">
-                      <span className="badge m-3 badge-warning">5%</span>
+                      
                     </div>
                   </a>
                   <div className="p-3">
@@ -341,7 +307,7 @@ export default class ProductList extends Component {
                 <div className="list-card-image">
                   <a href="/product-detail" className="text-dark">
                     <div className="member-plan position-absolute">
-                      <span className="badge m-3 badge-warning">15%</span>
+                      
                     </div>
                   </a>
                   <div className="p-3">
@@ -372,7 +338,7 @@ export default class ProductList extends Component {
                 <div className="list-card-image">
                   <a href="/product-detail" className="text-dark">
                     <div className="member-plan position-absolute">
-                      <span className="badge m-3 badge-warning">5%</span>
+                      
                     </div>
                   </a>
                   <div className="p-3">
@@ -401,7 +367,7 @@ export default class ProductList extends Component {
                 <div className="list-card-image">
                   <a href="/product-detail" className="text-dark">
                     <div className="member-plan position-absolute">
-                      <span className="badge m-3 badge-warning">15%</span>
+                      
                     </div>
                   </a>
                   <div className="p-3">
@@ -432,7 +398,7 @@ export default class ProductList extends Component {
                 <div className="list-card-image">
                   <a href="/product-detail" className="text-dark">
                     <div className="member-plan position-absolute">
-                      <span className="badge m-3 badge-warning">5%</span>
+                      
                     </div>
                   </a>
                   <div className="p-3">
@@ -461,7 +427,7 @@ export default class ProductList extends Component {
                 <div className="list-card-image">
                   <a href="/product-detail" className="text-dark">
                     <div className="member-plan position-absolute">
-                      <span className="badge m-3 badge-warning">15%</span>
+                    
                     </div>
                   </a>
                   <div className="p-3">

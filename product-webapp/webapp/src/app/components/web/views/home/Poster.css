@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+}
+.container{
+  margin-top: 20px;
+    margin-bottom: 10px  ;
+    width: 70%;
+    height: 30%;
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+      margin-bottom: 400px;
+    }
+  }
+  
+  /* For screen sizes larger than 1024px (e.g., desktops) */
+ 
+  
+  
+  
+  
+  
+  
